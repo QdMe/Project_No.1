@@ -1,18 +1,43 @@
 body{
     width: 1440px;
     background-color:hsl(233, 47%, 7%);
+    padding: 150px;
+}
+.inner_body{
+    display: flex;
 }
 .leftBox{
+    width: 400px;
+    height: 300px;
     background-color: hsl(244, 38%, 16%);
+    border: 2px solid yellow;
 }
 
 .Head{
     font-family:"Inter black";
     color: hsla(0, 0%, 100%, 0.75);
+    font-size: 18pt;
+    width: fit-content;
     
+}
+.FontColor{
+    color: hsl(277, 64%, 61%);
 }
 .Paragraph{
     font-family: "Inter light";
     color: hsla(0, 0%, 100%, 0.6);
-    font-size: 15px;
+    font-size: 12px;
+    width: fit-content;
+    display: flex;
 }
+.statistics{
+    font-size: 14pt;
+    font-weight: bold;
+    color: #fff;
+    font-family: "inter black";
+    
+}
+img {
+    width: 400px;
+    height: 300px;
+  }
