@@ -1,0 +1,18 @@
+body{
+    width: 1440px;
+    background-color:hsl(233, 47%, 7%);
+}
+.leftBox{
+    background-color: hsl(244, 38%, 16%);
+}
+
+.Head{
+    font-family:"Inter black";
+    color: hsla(0, 0%, 100%, 0.75);
+    
+}
+.Paragraph{
+    font-family: "Inter light";
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 15px;
+}
